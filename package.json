@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/audy/bio-dat.git"
   },
-  "author": "austin davis-richardosn",
+  "author": "austin davis-richardson",
   "license": "MIT",
   "dependencies": {
     "dat": "~4.1.0",
