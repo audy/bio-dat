@@ -18,8 +18,11 @@ function random_sequence(length) {
 
 switch(cmd) {
   case "seqs":
+    console.log('i,sequence');
+    var i = 0;
     while (true) {
-      console.log(random_sequence(100));
+      console.log(i + ',' + random_sequence(100));
+      i++;
     }
     break
 }
