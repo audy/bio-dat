@@ -10,5 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "dat": "~4.1.0",
+    "minimist": "~0.0.8"
   }
 }
