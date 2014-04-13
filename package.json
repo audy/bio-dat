@@ -1,0 +1,14 @@
+{
+  "name": "bio-dat",
+  "version": "0.0.0",
+  "description": "Examples of using https://github.com/maxogden/dat for bioinformatics (sequence) data.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/audy/bio-dat.git",
+  },
+  "author": "austin davis-richardosn",
+  "license": "MIT",
+  "dependencies": {
+    "dat": "~4.1.0",
+  }
+}
