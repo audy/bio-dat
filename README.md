@@ -5,5 +5,11 @@ Examples of using https://github.com/maxogden/dat for bioinformatics (sequence) 
 ## Usage
 
 ```bash
-$ bio-dat seqs | head -n 1000 > random_sequences.csv
+
+# initialize data store
+dat init
+
+# import some data
+./cli.js seqs -n 1000 | dat import --csv --primary sequences 
+
 ```
